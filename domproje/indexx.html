@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Zaman Fonksiyonları</title>
+  <link rel="stylesheet" href="stylee.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🕒 Zaman Fonksiyonları</h1>
+
+
+    <section>
+      <h2>1. Gerçek Zamanlı Saat</h2>
+      <div id="clock" class="display">--:--:--</div>
+    </section>
+
+
+    <section>
+      <h2>2. Start / Stop Kronometre</h2>
+      <div id="stopwatch" class="display">00:00:00</div>
+      <div class="buttons">
+        <button onclick="startStopwatch()">Start</button>
+        <button onclick="stopStopwatch()">Stop</button>
+        <button onclick="resetStopwatch()">Reset</button>
+      </div>
+    </section>
+
+
+    <section>
+      <h2>3. Geri Sayım Sayacı</h2>
+      <label>
+        Dakika:
+        <input type="number" id="countdown-min" value="1" min="0">
+      </label>
+      <label>
+        Saniye:
+        <input type="number" id="countdown-sec" value="0" min="0" max="59">
+      </label>
+      <button onclick="startCountdown()">Başlat</button>
+      <div id="countdown" class="display">00:00</div>
+      <p id="countdown-msg"></p>
+    </section>
+  </div>
+
+  <script src="scriptt.js"></script>
+  <a href="indexxx.html">
+  <div class="buton">
+  
+hesab makinesi
+ </a>
+</div>
+</body>
+</html>
