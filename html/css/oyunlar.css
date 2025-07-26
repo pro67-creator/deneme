@@ -1,0 +1,247 @@
+.kutununiçi{
+    background-color: rgb(0, 0, 0);
+    align-content: center;
+    position: fixed;
+    font-size: 30px;
+    margin-left: 550px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+     color: #ffffff;
+  text-shadow:
+    0 0 7px #ffffff,
+    0 0 10px #ffffff,
+    0 0 21px #ffffff,
+    0 0 42px rgb(255, 255, 255),
+    0 0 82px rgb(255, 255, 255),
+    0 0 92px rgb(255, 255, 255),
+    0 0 102px rgb(255, 255, 255),
+    0 0 151px #0fa;
+    
+}
+
+body {
+    background-image: url('oyun.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+
+.twokutununiçi{   
+background-color: rgb(255, 0, 0, 0.5);
+align-content: center;
+height: 100px;
+margin-top: 50px;
+position: fixed;
+margin-left: 80px;
+width:    90%;
+
+
+}
+ 
+.anasayfa{
+    position: fixed;
+    font-size: 50px;
+    background-color: rgb(238, 255, 0);
+   animation: pulse 2s infinite;
+    border-radius: 20px;
+    color: #000000;
+ top:80px;
+ 
+}
+
+
+
+
+
+.anasayfa:hover {
+ background-color: #000000;
+color: #ff0000;
+box-shadow: 0 0 15px #bbff00 , 0 0 30px #b3ff00, 0 0 60px #a6ff00;  
+}
+.oyunlar {
+    position: fixed;
+    font-size: 50px;
+    background-color: rgb(0, 255, 0);
+    animation: pulse 2s infinite;
+    border-radius: 20px;
+    color: #000000;
+    top: 80px;
+    left: 300px;
+}
+.oyunlar:hover {
+    background-color: #000000;
+    color: #ff0000;
+    box-shadow: 0 0 15px #bbff00, 0 0 30px #b3ff00, 0 0 60px #a6ff00;  
+}
+
+.iletisim {
+    position: fixed;
+    font-size: 50px;
+    background-color: rgb(0, 0, 255);
+    animation: pulse 2s infinite;
+    border-radius: 20px;
+    color: #000000;
+    top: 80px;
+    left: 660px;
+}
+.iletisim:hover {
+    background-color: #000000;
+    color: #ff0000;
+    box-shadow: 0 0 15px #bbff00, 0 0 30px #b3ff00, 0 0 60px #a6ff00;  
+}
+
+.profil {
+    position: fixed;
+    font-size: 50px;
+    background-color: rgb(255, 0, 255);
+    animation: pulse 2s infinite;
+    border-radius: 20px;
+    color: #000000;
+    top: 80px;
+    left: 870px;
+}
+.profil:hover {
+    background-color: #000000;
+    color: #ff0000;
+    box-shadow: 0 0 15px #bbff00, 0 0 30px #b3ff00, 0 0 60px #a6ff00;  
+}
+.mağaza {
+    position: fixed;
+    font-size: 50px;
+    background-color: rgb(255, 165, 0);
+    animation: pulse 2s infinite;
+    border-radius: 20px;
+    color: #000000;
+    top: 80px;
+    left: 1045px;
+}
+.mağaza:hover {
+    background-color: #000000;
+    color: #ff0000;
+    box-shadow: 0 0 15px #bbff00, 0 0 30px #b3ff00, 0 0 60px #a6ff00;  
+}
+.bizkimiz {
+    position: fixed;
+    font-size: 50px;
+    background-color: rgb(128, 0, 128);
+    animation: pulse 2s infinite;
+    border-radius: 20px;
+    color: #000000;
+    top: 80px;
+    left: 1250px;
+}   
+.bizkimiz:hover {
+    background-color: #000000;
+    color: #ff0000;
+    box-shadow: 0 0 15px #bbff00, 0 0 30px #b3ff00, 0 0 60px #a6ff00;  
+}
+.haberler {
+    position: fixed;
+    font-size: 50px;
+    background-color: rgb(0, 128, 128);
+    animation: pulse 2s infinite;
+    border-radius: 20px;
+    color: #000000;
+    top: 80px;
+    left: 1490px;
+}
+.haberler:hover {
+    background-color: #000000;
+    color: #ff0000;
+    box-shadow: 0 0 15px #bbff00, 0 0 30px #b3ff00, 0 0 60px #a6ff00;  
+}
+.treekutununiçi{
+background-color: rgba(207, 253, 0, 0.5);
+height: 665px;
+position: fixed;
+width: 90%;
+margin-right: 400px;
+margin-top: 50px; 
+ margin: left 80%;
+align-content: center;
+
+
+}
+
+.gizlilikiçi {
+    position: fixed;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.473);
+    color: #f8f8f8;
+    padding: 0px;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-top: 1px solid #fff0f0;
+    padding: 10px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    
+}
+.oyun-kart {
+  width: 300px;
+  height: 180px;
+  background: url('gta5.jpg') center/cover no-repeat;
+  border-radius: 16px;
+  position: relative;
+  overflow: hidden;
+  opacity: 0.7;
+  animation: kartAnimasyon 1.5s ease;
+  transition: opacity 0.3s;
+  bottom: 219px;
+  left: 680px;
+  top: 25px;
+  
+}
+
+.oyun-kart:hover {
+  opacity: 1;
+}
+
+.kart-icerik {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: #ff0000;
+  padding: 16px;
+  box-sizing: border-box;
+  font-size: 50px;
+    text-shadow: 0 0 5px #ff0505, 0 0 10px #ff0000;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+   
+}
+
+
+
+
+.popüleroyunlar {
+  font-size: 50px;
+left: 660px;
+  color: #ffffff;
+ 
+  position: relative;
+
+bottom: 300px;
+ text-shadow:
+    0 0 7px #ffffff,
+    0 0 10px #ffffff,
+    0 0 21px #ffffff,
+    0 0 42px rgb(255, 255, 255),
+    0 0 82px rgb(255, 255, 255),
+    0 0 92px rgb(255, 255, 255),
+    0 0 102px rgb(255, 255, 255),
+    0 0 151px rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+

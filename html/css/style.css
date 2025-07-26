@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.neon-background {
+  width: 100%;
+  height: 100vh;
+  background: radial-gradient(circle at center, #0f0c29, #302b63, #24243e);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: backgroundPulse 5s infinite alternate;
+}
+
+@keyframes backgroundPulse {
+  0% {
+    background-position: 0% 50%;
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    background-position: 100% 50%;
+    filter: hue-rotate(360deg);
+  }
+}
+
+.neon-text {
+    gap: 30px;
+  font-size: 48px;
+  color: #fff;
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #ff00de,
+    0 0 20px #ff00de,
+    0 0 40px #ff00de,
+    0 0 80px #ff00de;
+  animation: flicker 1.5s infinite alternate;
+  
+}
+
+@keyframes flicker {
+  0% { opacity: 1; }
+  50% { opacity: 0.8; }
+  100% { opacity: 1; }
+}
+.butonkapsayıcı {
+    text-align: center;
+
+  
+
+}
+.buton{
+ margin-top: 200px;
+ margin-left: -440px;
+padding: 20px 40px;
+color: #fff;
+text-decoration: none;
+text-transform: uppercase;
+font-size: 24px;
+letter-spacing: 2px;
+background: 2px;
+background: transparent;
+border: 2px solid #ff004f;
+border-radius: 10px;
+transition: 0.4s;
+box-shadow: 0 0 10px #ff004f 0 0 20px #ff004f, 0 0 40px #ff004f;
+}
+.buton::before{
+content: "";
+top: -5px;
+left: -5px;
+width: calc(100% + 10px);
+height: calc(100% + 10px);
+border: 2px solid #e5ff00;
+border-radius: 12px;
+filter: blur(10px);
+opacity: 0;
+transition: 0.3;
+}
+.buton:hover::before {
+  opacity: 1;
+}
+.buton:hover{
+background-color: #ff004f;
+color: #000;
+box-shadow: 0 0 15px #ff004f , 0 0 30px #ff004f, 0 0 60px #ff004f;  
+}
+.altbilgi{
+  
+position: fixed;
+  bottom: 0px;
+  width: 99.8%;
+  padding: 0px;
+  background-color: #ff0202;
+  color: ff00ff;
+  font-size: 20px;
+  letter-spacing: 5px;
+  box-shadow: 0 -2px 10px #000000;
+text-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff, 0 0 20px #ff00ff;
+margin-left: -1165px;
+
+
+}
+.logo{
+margin-left: 665px;
+position: fixed;
+top: 10px;
+}

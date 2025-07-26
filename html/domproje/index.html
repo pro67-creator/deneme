@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Şifre Oluşturma</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Şifre Oluşturucu</h1>
+
+    <label>Şifre Uzunluğu:
+      <input type="number" id="length" min="4" max="50" value="12">
+    </label>
+
+    <div class="checkboxes">
+      <label><input type="checkbox" id="uppercase" checked> Büyük Harf</label>
+      <label><input type="checkbox" id="lowercase" checked> Küçük Harf</label>
+      <label><input type="checkbox" id="numbers" checked> Rakam</label>
+      <label><input type="checkbox" id="symbols" checked> Sembol</label>
+    </div>
+
+    <button id="generate">Şifre Oluştur</button>
+    <input type="text" id="password" readonly placeholder="Şifreniz burada görünecek">
+
+    <button id="copy">Kopyala</button>
+    <p id="message"></p>
+  </div>
+  <div class="buton">
+<a href="indexx.html">
+ <button>Zaman Fonksiyonları</button> 
+ </a>
+</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
